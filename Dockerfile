@@ -12,5 +12,5 @@ ADD \
   eula.txt \
   ./
 EXPOSE 25565
-CMD ["java", "-Xmx990M","-Xms990M","-jar","minecraft_server.1.10.2.jar","nogui"]
+CMD ["java", "-Xmx512M","-Xms512M","-jar","minecraft_server.1.10.2.jar","nogui"]
   
